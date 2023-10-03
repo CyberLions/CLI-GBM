@@ -55,9 +55,9 @@ while true; do
     echo "---------------------------"
     echo "Options:"
 if [ "$bool0" = false ]; then
-    echo "$(highlight 33 "A.") Update and Upgrade System (Quick)"
+    echo "$(highlight 33 "A.") Update and Upgrade System (Slow)"
 else
-        echo "$(highlight 31 "A.") Update and Upgrade System (Quick)"
+        echo "$(highlight 31 "A.") Update and Upgrade System (Slow)"
 fi
 if [ "$bool1" = false ]; then
     echo "$(highlight 33 "B.") List Currently Active Users (Quick)"
@@ -75,54 +75,54 @@ else
         echo "$(highlight 31 "D.") List Potentially Dangerous Network-Connected Processes (Quick)"
 fi
 if [ "$bool4" = false ]; then
-    echo "$(highlight 33 "E.") Check for Rootkit Presence (Medium)"
+    echo "$(highlight 33 "E.") Check for Rootkit Presence (Slow)"
 else
-        echo "$(highlight 31 "E.") Check for Rootkit Presence (Medium)"
+        echo "$(highlight 31 "E.") Check for Rootkit Presence (Slow)"
 fi
 if [ "$bool5" = false ]; then
-    echo "$(highlight 33 "F.") Check for Unusual Listening Ports (Medium)"
+    echo "$(highlight 33 "F.") Check for Unusual Listening Ports (Quick)"
 else
-        echo "$(highlight 31 "F.") Check for Unusual Listening Ports (Medium)"
+        echo "$(highlight 31 "F.") Check for Unusual Listening Ports (Quick)"
 fi
 if [ "$bool6" = false ]; then
-    echo "$(highlight 33 "G.") Check for Suspicious Processes (Medium)"
+    echo "$(highlight 33 "G.") Check for Suspicious Processes (Quick)"
 else
-        echo "$(highlight 31 "G.") Check for Suspicious Processes (Medium)"
+        echo "$(highlight 31 "G.") Check for Suspicious Processes (Quick)"
 fi
 if [ "$bool7" = false ]; then
-    echo "$(highlight 33 "H.") Check for Unauthorized Sudo Access (Medium)"
+    echo "$(highlight 33 "H.") Check for Unauthorized Sudo Access (Quick)"
 else
-        echo "$(highlight 31 "H.") Check for Unauthorized Sudo Access (Medium)"
+        echo "$(highlight 31 "H.") Check for Unauthorized Sudo Access (Quick)"
 fi
 if [ "$bool8" = false ]; then
-    echo "$(highlight 33 "I.") Check for Open SSH Sessions (Medium)"
+    echo "$(highlight 33 "I.") Check for Open SSH Sessions (Quick)"
 else
-        echo "$(highlight 31 "I.") Check for Open SSH Sessions (Medium)"
+        echo "$(highlight 31 "I.") Check for Open SSH Sessions (Quick)"
 fi
 if [ "$bool9" = false ]; then
-    echo "$(highlight 33 "J.") Check for Failed Login Attempts (Medium)"
+    echo "$(highlight 33 "J.") Check for Failed Login Attempts (Quick)"
 else
-        echo "$(highlight 31 "J.") Check for Failed Login Attempts (Medium)"
+        echo "$(highlight 31 "J.") Check for Failed Login Attempts (Quick)"
 fi
 if [ "$bool10" = false ]; then
-    echo "$(highlight 33 "K.") Check for Excessive Resource Usage (Medium)"
+    echo "$(highlight 33 "K.") Check for Excessive Resource Usage (Quick)"
 else
-        echo "$(highlight 31 "K.") Check for Excessive Resource Usage (Medium)"
+        echo "$(highlight 31 "K.") Check for Excessive Resource Usage (Quick)"
 fi
 if [ "$bool11" = false ]; then
-    echo "$(highlight 33 "L.") Check for Unauthorized SUID/SGID Files (Medium)"
+    echo "$(highlight 33 "L.") Check for Unauthorized SUID/SGID Files (Slow)"
 else
-        echo "$(highlight 31 "L.") Check for Unauthorized SUID/SGID Files (Medium)"
+        echo "$(highlight 31 "L.") Check for Unauthorized SUID/SGID Files (Slow)"
 fi
 if [ "$bool12" = false ]; then
-    echo "$(highlight 33 "M.") Check for Uncommon or Unsafe Permissions (Medium)"
+    echo "$(highlight 33 "M.") Check for Uncommon or Unsafe Permissions (Quick)"
 else
-        echo "$(highlight 31 "M.") Check for Uncommon or Unsafe Permissions (Medium)"
+        echo "$(highlight 31 "M.") Check for Uncommon or Unsafe Permissions (Quick)"
 fi
 if [ "$bool13" = false ]; then
-    echo "$(highlight 33 "N.") Check for Firewall Rules (Medium)"
+    echo "$(highlight 33 "N.") Check for Firewall Rules (Quick)"
 else
-        echo "$(highlight 31 "N.") Check for Firewall Rules (Medium)"
+        echo "$(highlight 31 "N.") Check for Firewall Rules (Quick)"
 fi
 if [ "$bool14" = false ]; then
     echo "$(highlight 33 "O.") Check for Password Policy Compliance (Quick)"
